@@ -7,11 +7,11 @@ import { PaymentEntity } from './Entities/PaymentEntity';
 import { ProducerEntity } from './Entities/ProducerEntity';
 import { ProductEntity } from './Entities/ProductEntity';
 import { UserEntity } from './Entities/UserEntity';
-import { CartModule } from './cart/cart.module';
-import { UserModule } from './user/user.module';
-import { PaymentModule } from './payment/payment.module';
-import { ProducerModule } from './producer/producer.module';
-import { ProductModule } from './product/product.module';
+import { CartModule } from './modules/cart/cart.module';
+import { UserModule } from './modules/cart/user/user.module';
+import { PaymentModule } from './modules/cart/payment/payment.module';
+import { ProducerModule } from './modules/cart/producer/producer.module';
+import { ProductModule } from './modules/cart/product/product.module';
 
 
 
